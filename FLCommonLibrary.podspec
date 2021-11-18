@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.source_files = 'FLCommonLibrary/Classes/**/*'
   
    s.resource_bundles = {
-    'FLCommonLibrary' => ['FLCommonLibrary/Classes/view/*']
+    'FLCommonLibrary' => ['FLCommonLibrary/Classes/**/*']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
