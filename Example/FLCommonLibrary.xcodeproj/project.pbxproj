@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		419B228BB6FE61DB73CEC7B9 /* Pods_FLCommonLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FLCommonLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		493A54CBBCE21605628D6276 /* Pods-FLCommonLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLCommonLibrary_Example.release.xcconfig"; path = "Target Support Files/Pods-FLCommonLibrary_Example/Pods-FLCommonLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
-		584A02A65C1D86441249C51A /* FLCommonLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FLCommonLibrary.podspec; path = ../FLCommonLibrary.podspec; sourceTree = "<group>"; };
+		584A02A65C1D86441249C51A /* FLCommonLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FLCommonLibrary.podspec; path = ../FLCommonLibrary.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* FLCommonLibrary_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLCommonLibrary_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,9 +44,9 @@
 		8E5226DCB5E7FA50C264AA56 /* Pods-FLCommonLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLCommonLibrary_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FLCommonLibrary_Tests/Pods-FLCommonLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A31659143784901FD3296F9A /* Pods-FLCommonLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLCommonLibrary_Tests.release.xcconfig"; path = "Target Support Files/Pods-FLCommonLibrary_Tests/Pods-FLCommonLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BA0C98FB54E7E3D97F285E63 /* Pods_FLCommonLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FLCommonLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BCB5D9DD32F846ECB12F019E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BCB5D9DD32F846ECB12F019E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CC9916790F57824AA23406CB /* Pods-FLCommonLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLCommonLibrary_Example.debug.xcconfig"; path = "Target Support Files/Pods-FLCommonLibrary_Example/Pods-FLCommonLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		ECE14D43A110CADAD588FFF6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		ECE14D43A110CADAD588FFF6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				8E5226DCB5E7FA50C264AA56 /* Pods-FLCommonLibrary_Tests.debug.xcconfig */,
 				A31659143784901FD3296F9A /* Pods-FLCommonLibrary_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
